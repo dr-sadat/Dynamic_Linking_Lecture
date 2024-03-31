@@ -2,14 +2,14 @@
 
 The commands listed below will work on Ubuntu. Please put all the source files (.c) in the same directory/folder. 
 
-### Compile the target program (target.c) with dynamic linking enabled
+1. Compile the target program (target.c) with dynamic linking enabled
 `gcc target.c -o dynamic`
 
-### Create a library contatining the fake sleep() function 
+2. Create a library contatining the fake sleep() function 
 `gcc fakesleep.c -shared -fPIC -o mylib.so`
 
-### Set LD_PRELOAD 
+3. Set LD_PRELOAD 
 `export LD_PRELOAD=./mylib.so`
 
-### Run the target program
+4. Run the target program
 `./dynamic`
