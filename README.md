@@ -1,6 +1,6 @@
 # Dynamic_Linking_Lecture
 
-The commands listed below will work on Ubuntu. Please put all the source files (.c) in the same directory/folder. 
+The commands listed below will work on Ubuntu. Please put all the source files (.c) in the same directory/folder. Then open "Terminal" in that directory and follow the steps below.
 
 1. Compile the target program (target.c) with dynamic linking enabled:
 `gcc target.c -o dynamic`
