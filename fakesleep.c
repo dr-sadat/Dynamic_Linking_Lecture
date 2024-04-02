@@ -2,5 +2,5 @@
 
 void sleep (int s)
 {
-        printf("-----\n ATTACK!!!!!!!! \n-----\n");
+        printf("-----\n ATTACK!!!!!! \n");
 }
